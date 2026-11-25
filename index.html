@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The personal portfolio of Aliza Kadri, a B.Tech AIML student.">
+  <title>Aliza Kadri | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="brand" href="#home">AK<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact" class="nav-contact">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" id="themeToggle" aria-label="Switch colour theme">☾</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-pad" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> B.TECH STUDENT · AIML</p>
+          <h1>Curious mind.<br><em>Creative</em> thinking.</h1>
+          <p class="hero-text">Hello, I'm <strong>Aliza Kadri</strong> — an Artificial Intelligence and Machine Learning student who enjoys turning ideas into thoughtful digital experiences.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my work <span>↗</span></a>
+            <a class="text-link" href="#contact">Let's connect <span>→</span></a>
+          </div>
+          <div class="hero-note"><span class="note-dot"></span> Always learning. Always building.</div>
+        </div>
+        <div class="portrait-wrap">
+          <div class="portrait-frame">
+            <img src="profile.jpg" alt="Portrait of Aliza Kadri" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <div class="portrait-fallback">AK</div>
+          </div>
+          <div class="portrait-caption"><span>01 / ABOUT ME</span><span>Ahmedabad, India</span></div>
+          <div class="decorative-star">✳</div>
+        </div>
+      </div>
+      <div class="hero-bottom container"><span>PORTFOLIO — 2026</span><span>SCROLL TO DISCOVER ↓</span></div>
+    </section>
+
+    <section class="about section-pad" id="about">
+      <div class="container two-column">
+        <div>
+          <p class="eyebrow">A LITTLE INTRODUCTION</p>
+          <h2>Learning today,<br><em>building tomorrow.</em></h2>
+        </div>
+        <div class="about-copy">
+          <p>I'm a second-year B.Tech student in Artificial Intelligence and Machine Learning. I love exploring how technology can solve real-world problems, especially through AI, web development and creative projects.</p>
+          <p>I'm currently strengthening my programming foundations, experimenting with new tools and learning by building. This portfolio is a small collection of my journey so far.</p>
+          <div class="about-facts">
+            <div><strong>02nd</strong><span>Year of study</span></div>
+            <div><strong>AIML</strong><span>Field of interest</span></div>
+            <div><strong>India</strong><span>Based in</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills section-pad" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">WHAT I'M LEARNING</p><h2>Skills & <em>interests.</em></h2></div>
+          <p class="section-intro">A growing toolkit for creating useful, intelligent and engaging digital solutions.</p>
+        </div>
+        <div class="skill-grid">
+          <article class="skill-card"><span class="skill-number">01</span><h3>Web Development</h3><p>HTML · CSS · JavaScript · Responsive design</p></article>
+          <article class="skill-card"><span class="skill-number">02</span><h3>Programming</h3><p>Python · C++ · Problem solving</p></article>
+          <article class="skill-card"><span class="skill-number">03</span><h3>AI & Machine Learning</h3><p>ML fundamentals · Data preparation · Model concepts</p></article>
+          <article class="skill-card"><span class="skill-number">04</span><h3>Tools & Collaboration</h3><p>Git · GitHub · MySQL · Team projects</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects section-pad" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">SELECTED WORK</p><h2>Projects in <em>progress.</em></h2></div>
+          <p class="section-intro">A couple of examples that reflect my interest in practical technology.</p>
+        </div>
+        <div class="project-list">
+          <article class="project-card">
+            <div class="project-visual visual-one"><span>01</span><div class="visual-icon">⌁</div><small>IoT · WEATHER</small></div>
+            <div class="project-info"><p class="project-type">IOT / SMART SYSTEM</p><h3>Smart Weather Station</h3><p>A concept for collecting real-time environmental readings using sensors and a microcontroller, with the goal of making weather information easier to monitor.</p><div class="tag-row"><span>ESP32</span><span>Sensors</span><span>Python</span></div></div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual visual-two"><span>02</span><div class="visual-icon">✳</div><small>AI · AGRICULTURE</small></div>
+            <div class="project-info"><p class="project-type">AI / SMART FARMING</p><h3>Plant Health Assistant</h3><p>A learning project exploring how image-based machine learning can help identify possible plant diseases and support smarter gardening decisions.</p><div class="tag-row"><span>Machine Learning</span><span>Python</span><span>Computer Vision</span></div></div>
+          </article>
+        </div>
+        <p class="project-disclaimer">Project descriptions are learning-project summaries. Update them with your exact implementation and add GitHub links when your code is published.</p>
+      </div>
+    </section>
+
+    <section class="contact section-pad" id="contact">
+      <div class="container contact-grid">
+        <div><p class="eyebrow">HAVE AN IDEA?</p><h2>Let's make<br><em>something good.</em></h2><p class="contact-intro">I'd love to connect, learn and collaborate on interesting ideas.</p><a class="email-link" href="mailto:aliza.kadri@example.com">aliza.kadri@example.com ↗</a><p class="small-note">Replace this example email with the email address you want to share.</p></div>
+        <form class="contact-form" id="contactForm" novalidate>
+          <label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Enter your name">
+          <label for="email">Email address</label><input id="email" name="email" type="email" placeholder="you@example.com">
+          <label for="message">Your message</label><textarea id="message" name="message" rows="4" placeholder="Tell me what you have in mind..."></textarea>
+          <button class="button button-primary form-button" type="submit">Check my message <span>↗</span></button>
+          <p class="form-feedback" id="formFeedback" role="status" aria-live="polite"></p>
+          <p class="small-note">Demo form: it checks your entries in the browser but does not send or store messages.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><a class="brand" href="#top">AK<span>.</span></a><p>Designed & built by Aliza Kadri · 2026</p><a href="#top" class="back-top">BACK TO TOP ↑</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
